@@ -1,0 +1,90 @@
+.how_much_found{
+    text-align: center;
+    font-size: 20px;
+}
+.books_container{
+    margin: 0 auto;
+    max-width: 1350px;
+}
+.books_row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.books_items{
+    flex-basis: 25%;
+}
+.book_item{
+    background: #E9EAE0;
+    margin: 20px;
+    height: 450px;
+    text-align: left;
+}
+.book_img{
+    text-align: center;
+    padding: 20px;
+}
+.book_img img{
+    width: 170px;
+    height: 220px;
+}
+.book_category{
+    text-decoration: underline black;
+    font-weight: lighter;
+}
+.book_authors{ 
+    font-weight: normal;
+    font-weight: lighter;
+}
+.book_category, .book_name, .book_authors {
+    font-size: 14px;
+    text-align: left;    
+}
+
+p{
+    font-size: 14px;
+}
+.navbar{
+    text-decoration: none;
+    color:black;
+}
+.book_info{
+    padding: 0 20px 20px;
+}
+.load_more_button{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    background: #750000;
+    color: white;
+}
+.button{
+    text-align: center; 
+}
+
+.forLoader {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 50vh;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

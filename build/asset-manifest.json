@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/googleApi/static/css/main.bd8438aa.css",
+    "main.js": "/googleApi/static/js/main.270f9447.js",
+    "static/media/books.jpg": "/googleApi/static/media/books.9f21fdce4f86d444869a.jpg",
+    "index.html": "/googleApi/index.html",
+    "main.bd8438aa.css.map": "/googleApi/static/css/main.bd8438aa.css.map",
+    "main.270f9447.js.map": "/googleApi/static/js/main.270f9447.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd8438aa.css",
+    "static/js/main.270f9447.js"
+  ]
+}
